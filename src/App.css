@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Courier New", monospace;
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.newCard {
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: "Courier New", monospace;
+  position: relative;
+  max-width: 420px;
+}

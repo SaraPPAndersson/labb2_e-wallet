@@ -1,0 +1,141 @@
+.newCardPreview {
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+  color: #999;
+  font-family: "Courier New", monospace;
+  background-color: silver;
+  position: relative;
+}
+
+.newCardPreview h2 {
+  display: none;
+}
+
+.cardPreviewNumber {
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  margin: 2rem 0 1.5rem;
+  /* color: #111; */
+}
+
+.cardPreviewHolder,
+.cardPreviewValidDate {
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-right: 2rem;
+  /* color: #111; */
+}
+
+.cardPreviewCcv {
+  display: none;
+}
+
+.vendorIcon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+form label {
+  display: block;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+form input,
+form select {
+  width: 100%;
+  border-radius: 0.2rem;
+  border-bottom: 1px solid #ccc;
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+  background: transparent;
+  text-align: left;
+  box-shadow: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-bottom: 1px solid #333;
+  box-shadow: none;
+  outline: none;
+}
+
+.formRow {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.formRow > div {
+  flex: 1;
+}
+
+.AddCardButton {
+  width: 100%;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.ViewCardButton {
+  width: 100%;
+  background-color: #359ab9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.previewTopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.previewChip {
+  width: 32px;
+}
+
+.vendorIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.previewBottomRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.previewCardHolderLabel,
+.previewValidDateLabel {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  /* color: #000000; */
+  display: block;
+  font-size: small;
+}
